@@ -56,9 +56,6 @@
      <Compile Include="Assets\UPAToolkit\Editor\UPAImage.cs" />
      <Compile Include="Assets\UPAToolkit\Editor\UPALayer.cs" />
      <Compile Include="Assets\UPAToolkit\Editor\UPASession.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>E:/Program Files/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>E:/Program Files/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -73,9 +70,6 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>E:/Program Files/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>E:/Program Files/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>E:/Program Files/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -118,8 +112,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{89D283AA-0A64-3E7A-7DC1-AE31A9989A75}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{BBF0A946-A517-C025-1144-48363F31BD0B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
